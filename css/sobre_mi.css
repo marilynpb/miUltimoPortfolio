@@ -12,10 +12,9 @@ body{
 }
 
 nav{
-    background-color: #09090961;
+    background-color: #090909af;
     color: #FFFFFF;
 }
-
 nav li a{
     font-size: 19px!important;
 }
@@ -85,3 +84,6 @@ table{
     }
 }
 
+.navbar-toggler-icon {
+    float: right;
+}

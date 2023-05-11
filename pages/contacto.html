@@ -60,11 +60,14 @@
                     <!--Redes, datos End -->
 
                     <!--Form Contacto Start -->
-                    <div class="col-12 col-md-6">                
+                    <div class="col-12 col-md-6 mt-4">  
                         <form class="p-1 p-md-4 rounded-2 text-center">
-                            <p>Envía tu consulta<span> en breve te responderé</span></p>
-                            <input class="rounded-2 m-2" type="text" placeholder="Email"><br>
-                            <textarea rows="6" class="rounded-2 m-2"  placeholder="Mensaje"></textarea><br>
+                            <p id="enviado" class="text-center text-success">Su consulta ha sido enviada con exíto!</p>  
+                            <p id="error" class="text-center text-warning">Por favor, complete los campos correctamente y vuelva a intentarlo</p> 
+                            <p id="error-email" class="text-center text-danger">Por favor, ingrese un Email válido</p>
+                            <p>Envía tu consulta,<span> en breve te responderé</span></p>
+                            <input id="email" name="email" class="rounded-2 m-2" type="text" placeholder="Email"><br>
+                            <textarea id="mensaje" name="mensaje" rows="6" class="rounded-2 m-2"  placeholder="Mensaje"></textarea><br>
                             <button type="submit" class="btn border-red rounded-5 m-3">Enviar</button>
                         </form>
                     </div>
@@ -73,10 +76,20 @@
             </div>
         </main>
 
+        <!-- Contacto Form JS -->
+        <script src="../js/contacto-form.js"></script>
+        <!-- Email  JS -->
+        <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+        <script>
+        (function(){
+            emailjs.init('cc8QZlANN2rnXaa-i');
+        })();
+        </script>
+
         <!-- Script de jQuery -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
         <!-- Scripts de Bootstrap -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </body>
 </html>

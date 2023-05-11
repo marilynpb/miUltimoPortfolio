@@ -12,7 +12,7 @@ body{
 }
 
 nav{
-    background-color: #09090961;
+    background-color: #090909af;
     color: #FFFFFF;
 }
 
@@ -113,3 +113,15 @@ form{
         min-width: 200px;
     }
 }
+
+
+#enviado, #error, #error-email {
+    display: none;
+}
+
+.navbar-toggler-icon {
+    float: right;
+}
+
+
+

@@ -16,7 +16,7 @@ body{
 }
 
 nav{
-    background-color: #09090961;
+    background-color: transparent;
     color: #FFFFFF;
 }
 
@@ -103,6 +103,12 @@ p{
     font-weight: lighter;
 }
 
+@media (max-width:1366px) {
+    span{
+        font-size: 30px;
+    }
+}
+
 @media (max-width:1200px) {
     body{
         background-image: url('../img/DALL·E\ 2023-05-10\ 22.53.09\ -\ landscape\ blurred\ lights.png');
@@ -121,6 +127,10 @@ p{
 }
 
 @media (max-width:660px) {
+    .wrapper{
+        height: 150px;
+    }
+    
     .cont-bts a{
         min-width: 200px;
         max-width: 200px;
@@ -128,15 +138,6 @@ p{
     }
     body{
         max-height: auto;
-    }
-    span{
-        font-size: 30px;
-        text-transform: uppercase;
-        font-weight: bolder;
-    }
-    p{
-        font-size: 20px;
-        text-align: center;
     }
 }
 
@@ -146,4 +147,11 @@ p{
         max-width: 100%;
         font-size: 18px;
     }
+}
+
+.no-animation {
+    animation: none;
+}
+.navbar-toggler-icon {
+    float: right;
 }
