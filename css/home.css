@@ -11,12 +11,12 @@ body{
     font-family: 'Product-sans', sans-serif;
     color: #FFFFFF;
     overflow: hidden;
-    background-image: url('../img/DALL·E\ 2023-05-10\ 22.53.09\ -\ landscape\ blurred\ lights.png');
+    background-image: url('../img/Sin\ título-1wea.png');
     background-size: 100% 100%;
 }
 
 nav{
-    background-color: transparent;
+    background-color: #0b0b0b;
     color: #FFFFFF;
 }
 
@@ -103,7 +103,7 @@ p{
     font-weight: lighter;
 }
 
-@media (max-width:1366px) {
+@media (max-width:1367px) {
     span{
         font-size: 30px;
     }
