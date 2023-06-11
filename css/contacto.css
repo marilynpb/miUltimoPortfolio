@@ -17,7 +17,7 @@ nav{
 }
 
 nav li a{
-    font-size: 19px!important;
+    font-size: 22px!important;
 }
 
 nav li a:hover{
@@ -35,7 +35,7 @@ h1{
     font-weight: bold;
 }
 
-button{
+main button{
     min-width: 250px;
 }
 
@@ -66,7 +66,7 @@ span{
 }
 
 p{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: lighter;
 }
 
@@ -109,9 +109,10 @@ form{
     p{
         font-size: 17px;
     }
-    button{
+    main button{
         min-width: 200px;
     }
+    
 }
 
 
